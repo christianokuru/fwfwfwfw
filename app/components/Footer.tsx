@@ -14,18 +14,18 @@ export default function Footer() {
         {/* Links section */}
         <div className="flex flex-col items-center space-y-2 lg:flex-row lg:space-y-0 lg:space-x-6 lg:w-2/3 lg:justify-end px-1">
           <Link href="#">
-            <p className="hover:text-[#944cec] pb-1 whitespace-nowrap">Terms of Service</p>
+            <p className="hover:text-[#a77bca] pb-1 whitespace-nowrap">Terms of Service</p>
           </Link>
           <Link href="#">
-            <p className="hover:text-[#944cec] pb-1 whitespace-nowrap">Notice of Privacy Practices</p>
+            <p className="hover:text-[#a77bca] pb-1 whitespace-nowrap">Notice of Privacy Practices</p>
           </Link>
           <Link href="#">
-            <p className="hover:text-[#944cec] pb-1 break-words lg:whitespace-nowrap">
+            <p className="hover:text-[#a77bca] pb-1 break-words lg:whitespace-nowrap">
               Notice of Non-Discrimination and Language Assistance
             </p>
           </Link>
           <Link href="#">
-            <p className="hover:text-[#944cec] pb-1 whitespace-nowrap">Informed Consent Agreement</p>
+            <p className="hover:text-[#a77bca] pb-1 whitespace-nowrap">Informed Consent Agreement</p>
           </Link>
         </div>
 
