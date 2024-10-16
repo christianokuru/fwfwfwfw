@@ -32,7 +32,10 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="max-w-sm mx-auto px-11 pt-11">
+    <div className="max-w-sm mx-auto px-11 pt-11 lg:px-0 lg:max-w-md lg:pb-16">
+        <div>
+            <h1 className="hidden lg:block lg:pb-9 lg:scroll-m-20 lg:font-extrabold lg:tracking-tight lg:text-4xl">Sign in to your account</h1>
+        </div>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         {/* Username Field */}
         <div>
