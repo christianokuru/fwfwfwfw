@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="mt-8">
+    <div className="lg:flex-row mt-8">
       {/* Footer container */}
       <footer className="flex flex-col items-center text-center text-[#5b2f91] font-semibold text-xs border-t border-dotted pt-4 border-gray-700 lg:flex-row lg:justify-between lg:items-center lg:py-6 lg:px-16 lg:container lg:mx-auto">
         
@@ -31,7 +31,7 @@ export default function Footer() {
 
         {/* Copyright for small screens */}
         <div className="text-center text-gray-500 lg:hidden mt-4 font-thin">
-          <p className="mt-2">© 2002-2024 Teladoc, Inc. All rights reserved.</p>
+          <p className="mt-2 mb-28">© 2002-2024 Teladoc, Inc. All rights reserved.</p>
         </div>
       </footer>
     </div>
