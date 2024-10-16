@@ -22,9 +22,9 @@ export default function RootLayout({
         <main className="flex flex-col pt-[30px] px-[20px] lg:container lg:mx-auto lg:px-16">
           <Navbar />
           {children}
-          <main>
-            <Footer />
-          </main>
+        </main>
+        <main className="lg:mx-auto lg:container lg:px-[50px]">
+          <Footer />
         </main>
       </body>
     </html>
